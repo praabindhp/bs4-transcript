@@ -1,0 +1,4 @@
+typing
+bs4
+urllib
+urllib.request
