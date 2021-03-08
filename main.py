@@ -4,7 +4,7 @@ from urllib.request import urlopen as ureq
 from bs4 import BeautifulSoup as soup
 
 # Give Your URL Here
-my_url      = "https://subslikescript.com/series/Two_and_a_Half_Men-369179/season-1/episode-1-Pilot"
+my_url      = "https://subslikescript.com/series/Two_and_a_Half_Men-369179/season-1/episode-3-Go_East_on_Sunset_Until_You_Reach_the_Gates_of_Hell"
 
 u_client    = ureq(my_url)
 
