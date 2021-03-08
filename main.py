@@ -14,7 +14,7 @@ u_client.close()
 
 page_soup   = soup(page_html, "html.parser")
 
-script      =  page_soup.find("div", {"class":"full-script"})
+script      = page_soup.find("div", {"class":"full-script"})
 
 outfile     = open('./script.txt', 'w')
 
